@@ -14,7 +14,7 @@ body{
 
 .header{
     background-color: #2d303a;
-        color:#FFFFFF;
+        color:white;
         height:90px;
 }
 
@@ -37,7 +37,7 @@ nav .logo{
     float:right;
     position: fixed;
     margin-left: 600px;
-    
+    color: white;
 }
 
 .links{
@@ -48,6 +48,8 @@ nav .logo{
     display: inline-block;
     position: fixed;
 }
+
+
 
 .links a{
     padding-top: 20px;
