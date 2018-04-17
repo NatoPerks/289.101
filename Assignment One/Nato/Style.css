@@ -6,6 +6,7 @@ div{
 }
 */
 
+
 body{
     background-color: #f2f2f2;
     margin: 0;
@@ -14,8 +15,18 @@ body{
 
 .header{
     background-color: #2d303a;
-        color:white;
-        height:90px;
+    color:white;
+    height:90px;
+}
+
+.fixedheader{
+    position: fixed;
+    height: 90px;
+    background-color: #2d303a;
+    width: 100%;
+    max-width: 1280px;
+    opacity: 0.9;
+
 }
 
 .margin{
@@ -36,7 +47,7 @@ nav .logo{
     font-size: 1.4rem;
     float:right;
     position: fixed;
-    margin-left: 600px;
+    margin-left: 650px;
     color: white;
 }
 
@@ -80,16 +91,18 @@ nav a:hover::before{
     width: 100%;  
 }
 
+.photo{
+    max-width: 1280px;
+}
 .gallery{
     background-color: #f06c64;
-    padding: 20px 0;
-    height: 500px;
+    height: 720px;
     text-align: center;
 }
 
 .about{
     background-color: #f2f2f2;
-    color: #666d89;
+    color: ;
     height: 500px;
 }
 
@@ -98,7 +111,7 @@ nav a:hover::before{
     height: 500px;
 }
 
-.academic{
+.gaming{
     background-color: #2d303a;
     height:500px;
 }
@@ -106,4 +119,65 @@ nav a:hover::before{
 .contact{
     background-color: #f06c64;
     height: 100px;
+}
+
+.music{
+    background-color: #f2f2f2;
+    height: 500px;
+}
+
+iframe {
+    float: right;
+    margin-top: 50px;
+}
+
+.ftabout{
+    float:left;
+    margin-top: 20px;
+    max-width: 400px;
+    height: 170px;
+}
+
+.ftwngnat{
+    float:right;
+    margin-top: 20px;
+    max-width: 400px;
+    height: 195px;
+}
+
+.ftschool{
+    float:left;
+    padding-top: 0px;
+    max-width: 400px;
+}
+
+.ftsenior{
+    float: right;
+    padding-top: 0px;
+    max-width: 400px;
+    
+}
+
+p{
+    font-size: 0.85rem;
+    text-align: justify;
+}
+
+h1{
+    margin-top: 40px;
+    height: 10px;
+}
+
+h3{
+    display: inline;
+}
+
+.pabout{
+    max-width: 550px;
+    float: left;
+}
+
+p1{
+    font-size: 1.1rem;
+     max-width: 550px;
 }
