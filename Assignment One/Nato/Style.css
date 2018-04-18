@@ -13,7 +13,7 @@ body{
     background-color: #e8e8e8;
     margin: 0;
     font-family: 'Rokkitt', serif;
-    max-width: 1750px;
+    max-width: 1920px;
 }
 
 
@@ -106,7 +106,7 @@ nav a:hover::before{
 
 .about{
     background-color: #e8e8e8;
-    height: 500px;
+    height: 550px;
     font-family: monospace;
     max-width: 950;
 }
@@ -161,7 +161,7 @@ iframe {
 
 .ftschool{
     float:left;
-    padding-top: 40px;
+    padding-top: 50px;
     max-width: 400px;
 }
 
@@ -221,6 +221,18 @@ p4{
     margin-top: 0px;
 }
 
-.contacttxt{
-    
+.aboutlnk{
+    height: 50px;
+}
+
+.footballlnk{
+    height: 50px;
+}
+
+.instalnk{
+    height: 0px;
+}
+
+.musiclnk{
+    height: px;
 }
